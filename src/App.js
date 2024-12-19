@@ -20,15 +20,14 @@ import GroupsIcon from '@mui/icons-material/Groups';
 import CallIcon from '@mui/icons-material/Call';
 import HomeIcon from "@mui/icons-material/Home"
 import MenuIcon from "@mui/icons-material/Menu";
-import CalculateIcon from "@mui/icons-material/Calculate";
-import CurrencyExchangeIcon from '@mui/icons-material/CurrencyExchange';
 import Home from "./components/Home";
 import Footer from "./components/Footer";
 import SIPCalculator from "./components/Sip/SIPCalculator";
 import GSTCalculator from "./components/Gst/GSTCalculator";
 import EmiCalculator from "./components/Emi/EmiCalculator";
 import TaxCalculator from "./components/Tax/TaxCalculator";
-import RDCalculator from "./components/Rd/RDCalculator"
+import RDCalculator from "./components/Rd/RDCalculator";
+import UnitConverter from "./components/Conversion/UnitConverter"
 import About from "./components/About";
 import Contact from "./components/Contact"
 
@@ -93,7 +92,7 @@ const App = () => {
         <Box  sx={{
           display: "flex",
           flexDirection: "column",
-          minHeight: "90vh",
+          minHeight: "75vh",
         }}>
           {/* AppBar */}
           <AppBar
@@ -180,6 +179,7 @@ const App = () => {
               <Route path="/gstcalculator" element={<GSTCalculator />} />
               <Route path="/tax-calculator" element={<TaxCalculator />} />
               <Route path="/rd-calculator" element={<RDCalculator />} />
+              <Route path="/unit-conversion" element={<UnitConverter />} />
               <Route path="/contact-us" element={<Contact />} />
               <Route path="/about-us" element={<About />} />
 

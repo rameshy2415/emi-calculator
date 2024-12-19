@@ -183,7 +183,7 @@ const Home = () => {
             variant="contained"
             size="large"
             sx={{ paddingX: 3, paddingY: 2, backgroundColor:'#a8ccf0', color:'black'}}
-            onClick={() => navigate("/calculator")}
+            onClick={() => navigate("/unit-conversion")}
           >
             <Typography gutterBottom component="div">
             <IconButton

@@ -5,7 +5,6 @@ import { Facebook, Twitter, Instagram, LinkedIn } from "@mui/icons-material";
 const Footer = () => {
   return (
     <Box
-     
       sx={{
         backgroundColor: "#1976d2",
         color: "#ffffff",
@@ -13,7 +12,6 @@ const Footer = () => {
         marginTop: "auto",
         zIndex: 2000,
         mt: "auto",
-        py:2, 
         position:'sticky',
       }}
     >
@@ -54,7 +52,7 @@ const Footer = () => {
           <Typography variant="body2">Phone: +91-8270078469</Typography>
           <Typography variant="body2">Address:Sector 9 Airoli, Navi Mumbai</Typography> */}
 
-          <Box sx={{ mt:1, mb: -3}}>
+          <Box sx={{ mt:0, mb: -3}}>
             <Typography variant="h6" gutterBottom>
               Follow Us
             </Typography>
