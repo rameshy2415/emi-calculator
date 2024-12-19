@@ -92,7 +92,7 @@ const App = () => {
         <Box  sx={{
           display: "flex",
           flexDirection: "column",
-          minHeight: "75vh",
+          minHeight: "79vh",
         }}>
           {/* AppBar */}
           <AppBar
