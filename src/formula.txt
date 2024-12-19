@@ -1,0 +1,11 @@
+SIP Formula
+The formula to calculate the future value of SIP is:
+
+𝐹𝑉= P* ((((1+r)power n)-1)/r)*(1+r)
+
+Where:
+
+FV = Future Value
+P = Monthly Investment
+r = Monthly Return Rate (Annual Rate / 12 / 100)
+n = Total Number of Months (Years × 12)
