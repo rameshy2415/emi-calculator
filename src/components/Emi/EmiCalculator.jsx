@@ -9,7 +9,7 @@ import {
   Card,
   CardContent,
 } from "@mui/material"; // Import the new component
-import EmiDetails from "../EmiDetails";
+import EmiDetails from "./EmiDetails";
 
 const EmiCalculator = () => {
   const [loanAmount, setLoanAmount] = useState("");

@@ -52,22 +52,22 @@ const EmiDetails = ({schedule}) => {
                       direction="row"
                       sx={{
                         justifyContent: "space-between",
-                        alignItems: "center",
+                        
                       }}
                     >
-                      <Typography gutterBottom component="div">
+                      <Typography gutterBottom component="div" sx={{textAlign:'left'}}>
                         Instl. No
                         <Typography variant="body2" color="primary">
                           {row.month}
                         </Typography>
                       </Typography>
-                      <Typography gutterBottom component="div">
+                      <Typography gutterBottom component="div" sx={{textAlign:'left'}}>
                         Due Date
                         <Typography variant="body2" color="primary">
                           {row.date}
                         </Typography>
                       </Typography>
-                      <Typography gutterBottom component="div">
+                      <Typography gutterBottom component="div" sx={{textAlign:'left'}}>
                         EMI
                         <Typography variant="body2" color="primary">
                           {row.emi}
@@ -84,19 +84,19 @@ const EmiDetails = ({schedule}) => {
                         alignItems: "center",
                       }}
                     >
-                      <Typography gutterBottom component="div">
+                      <Typography gutterBottom component="div" sx={{textAlign:'left'}}>
                         Principal
                         <Typography variant="body2" color="primary">
                           {row.principal}
                         </Typography>
                       </Typography>
-                      <Typography gutterBottom component="div">
+                      <Typography gutterBottom component="div" sx={{textAlign:'left'}}>
                         Interest
                         <Typography variant="body2" color="primary">
                           {row.interest}
                         </Typography>
                       </Typography>
-                      <Typography gutterBottom component="div">
+                      <Typography gutterBottom component="div" sx={{textAlign:'left'}}>
                         O/S Balance
                         <Typography variant="body2" color="primary">
                           {row.balance}
