@@ -16,9 +16,9 @@ import {
 } from "@mui/material";
 import ListItemButton from "@mui/material/ListItemButton";
 import ListItemIcon from "@mui/material/ListItemIcon";
-import GroupsIcon from '@mui/icons-material/Groups';
-import CallIcon from '@mui/icons-material/Call';
-import HomeIcon from "@mui/icons-material/Home"
+import GroupsIcon from "@mui/icons-material/Groups";
+import CallIcon from "@mui/icons-material/Call";
+import HomeIcon from "@mui/icons-material/Home";
 import MenuIcon from "@mui/icons-material/Menu";
 import Home from "./components/Home";
 import Footer from "./components/Footer";
@@ -27,9 +27,9 @@ import GSTCalculator from "./components/Gst/GSTCalculator";
 import EmiCalculator from "./components/Emi/EmiCalculator";
 import TaxCalculator from "./components/Tax/TaxCalculator";
 import RDCalculator from "./components/Rd/RDCalculator";
-import UnitConverter from "./components/Conversion/UnitConverter"
+import UnitConverter from "./components/Conversion/UnitConverter";
 import About from "./components/About";
-import Contact from "./components/Contact"
+import Contact from "./components/Contact";
 
 const drawerWidth = 240;
 
@@ -53,7 +53,7 @@ const App = () => {
           onClick={() => setMobileOpen(false)}
         >
           <ListItemIcon sx={{ mr: -2 }}>
-          <HomeIcon color="primary" />
+            <HomeIcon color="primary" />
           </ListItemIcon>
           <ListItemText sx={{ color: "#1976d2" }} primary="Home" />
         </ListItemButton>
@@ -89,11 +89,13 @@ const App = () => {
     <div className="App">
       <Router>
         <CssBaseline />
-        <Box  sx={{
-          display: "flex",
-          flexDirection: "column",
-          minHeight: "79vh",
-        }}>
+        <Box
+          sx={{
+            display: "flex",
+            flexDirection: "column",
+            minHeight: "79vh",
+          }}
+        >
           {/* AppBar */}
           <AppBar
             position="fixed"
@@ -182,8 +184,6 @@ const App = () => {
               <Route path="/unit-conversion" element={<UnitConverter />} />
               <Route path="/contact-us" element={<Contact />} />
               <Route path="/about-us" element={<About />} />
-
-
             </Routes>
           </Box>
         </Box>
